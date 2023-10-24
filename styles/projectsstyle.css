@@ -1,0 +1,437 @@
+.my-navigation {
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.my-nav-item {
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.my-nav-item:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.login {
+    margin-right: 0;
+}
+
+.logout {
+    margin-right: 0;
+}
+
+.bg-dark {
+    background-color: cornflowerblue !important;
+}
+
+html,
+body,
+#__next {
+    height: 100%;
+    width: 100%;
+}
+
+#mainDiv {
+    height: 100%;
+}
+
+#signup-div,
+#signin-div {
+    height: 100%;
+    position: relative;
+}
+
+#signup-form,
+#signin-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    height: 30rem;
+    text-align: left !important;
+    background-color: lightgray;
+}
+
+#signup-header,
+#signin-header {
+    font-size: 1.3rem;
+    top: 50px;
+    position: absolute;
+}
+
+#logged-user {
+    right: 1rem;
+    position: absolute;
+    top: 1rem;
+}
+
+.mb-3 {
+    width: 20rem;
+}
+
+.btn-primary {
+    width: 20rem;
+}
+
+.google-area {
+    display: flex;
+    flex-direction: row;
+}
+
+#orders {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    border: 1px solid black;
+    flex-basis: 60%;
+}
+
+#mainCart {
+    padding: 8rem;
+    display: flex;
+    column-gap: 2rem;
+}
+
+#my-dishes {
+    flex-basis: 40%;
+}
+
+#clarMessage {
+    font-size: 1.4rem;
+    text-align: end;
+    line-height: 3rem;
+}
+
+#completeOrder {
+    text-align: center;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+#search-bar {
+    width: 60rem;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 50%);
+}
+
+#search-area {
+    flex-basis: 70%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+#search-button {
+    flex-basis: 30%;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: blue;
+    border-radius: 0 1rem 1rem 0;
+    color: white;
+    cursor: pointer;
+}
+
+#restauants-hoster,
+#dishes-hoster {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+#google-button-login {
+    width: 18rem;
+    margin-top: 1rem;
+    border: 1px solid azure;
+    background-color: wheat;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#signinwithgoogle-div {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signinwithgoogle-image {
+    width: 2rem;
+    height: auto;
+}
+
+#signinwithgoogle-text {
+    flex-basis: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.6rem;
+}
+
+#cond {
+    flex-basis: 20%;
+}
+
+#text {
+    flex-basis: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show {
+    visibility: visible !important;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#tick {
+    fill: green;
+}
+
+#error {
+    fill: red;
+}
+
+.counter {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-action {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Calibri';
+    font-weight: 900;
+    color: #202020;
+    cursor: pointer;
+}
+
+.quantity {
+    font-size: 20px;
+    font-family: 'Calibri';
+    font-weight: 900;
+    color: #202020;
+}
+
+#mainCart {
+    row-gap: 2rem;
+    flex-direction: column;
+    padding: 2rem;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#product-to-buy {
+    width: 80%;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.6rem;
+    background-color: darkgray;
+    border-radius: 1rem;
+}
+
+#image-container {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#data-container {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#final-pay-for-product {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#checkout-button {
+    padding: 1rem 2rem 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+#header-not-logged-in {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+#includes-the-cards {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10rem;
+    height: 30rem;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-user:hover {
+    color: white;
+}
+
+#input-search-restaurants,
+#input-search-dishes {
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 26rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 1px solid black;
+}
+
+#details-container {
+    display: flex;
+    height: 100%;
+}
+
+#details-card {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#payment-details {
+    flex-basis: 40%;
+}
+
+.App {
+    padding: 2rem;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+#number-in-cart {
+    background: red;
+    text-align: center;
+    width: 1.2rem;
+    height: auto;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    color: white;
+}
+
+#signinwithgooglebutton {
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin-top: 10px;
+    width: 20rem;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ripple div {
+    position: absolute;
+    border: 4px solid #fff;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  .lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+  }
+  @keyframes lds-ripple {
+    0% {
+      top: 36px;
+      left: 36px;
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+    4.9% {
+      top: 36px;
+      left: 36px;
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+    5% {
+      top: 36px;
+      left: 36px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+      width: 72px;
+      height: 72px;
+      opacity: 0;
+    }
+  }
+  
